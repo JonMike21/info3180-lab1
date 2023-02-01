@@ -3,10 +3,12 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>Jon-Michael Ferguson</h1>
- <p>For some reason, people believe that my name comes from the Bible. They're completely correct.
+ <img src="{{url_for('static',filename='Jamaican2.jpg')}}"  alt="Piece of Culture ~Jon-Michael F" style="width:300px;height:300px;" class="image"/>
+ <p>For some reason, people believe that my name comes from the Bible....They're completely correct.
     My name is derived from two powerhouses in a previous era in time. No 'h' in John?
     Well I think that Jon is simply scientipically superior (I spelt it wrong on purpose :). 
  </p>
